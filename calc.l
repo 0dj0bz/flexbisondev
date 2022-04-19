@@ -6,7 +6,9 @@
 		MUL = 261,
 		DIV = 262,
 		ABS = 263,
-		EOL = 264
+		EOL = 264,
+		OP  = 265,
+		CP  = 266
 	};
 
 	int yylval;
@@ -22,6 +24,9 @@
 -?[0-9]+	{ yylval = atoi(yytext); return NUMBER; }
 \n		{ return EOL; }
 [ \t]	{ }
+"("	{ return OP; }
+")"	{ return CP; }
+"//".*
 .		{ printf("Mystery character %c\n", *yytext); }
 
 %%
