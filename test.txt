@@ -1,0 +1,4 @@
+string myString;
+integer counter;
+
+float aFloat;
