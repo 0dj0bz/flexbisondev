@@ -1,0 +1,27 @@
+{
+	"name": {
+		"firstName": "Jose",
+		"lastName": "Jimenez"
+	},
+	"occupation": {
+		"employer": "NASA",
+		"jobTitle": "Astronaut"
+	},
+	"birthDate": "1991-02-21",
+	"education": [
+		{
+			"institutionName": "Massachusetts Institute of Technology",
+			"degree": "Doctor of Philosophy",
+			"college": "School of Engineering",
+			"areaOfStudy": "Aeronautics and Astronautics",
+			"yearGraduated": 2004
+		},
+		{
+			"institutionName": "United States Air Force Academy",
+			"degree": "Bachelor of Science",
+			"college": "Engineering",
+			"areaOfStudy": "Astronautical Engineering",
+			"yearGraduated": 1996
+		}
+	]
+}
